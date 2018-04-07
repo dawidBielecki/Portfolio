@@ -1,0 +1,96 @@
+@media all and (max-width: 1200px){
+    #portfolio .portfolio-items .portfolio-item{
+        width:50%}
+    #portfolio .portfolio-items .portfolio-item:last-child{
+        width:100%;
+    }
+    }
+
+/*min width-poniżej tej szerokości*/
+
+@media all and (max-width: 768px){
+    nav#menu .toggle{
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        color: #1ac056;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        text-align: right;
+    }
+    
+    nav#menu ul {
+        display: none;
+    }
+    
+    nav#menu #drop:checked + ul{
+        display: block;
+    }
+    
+    nav#menu > ul > li {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
+    
+    #main-header .header-caption{
+        padding: 10px;
+    }
+    
+
+    #about .col-1-2{
+        width: 100%;
+    }
+    
+     #portfolio .portfolio-items .portfolio-item{
+        width: 100%;
+    
+
+}
+
+
+
+
+@media all and (max-width: 680px){
+    section{
+        padding: 0 40px 50px;
+    }
+    #main-header .header-caption h1{
+        font-size: 3em;
+    }
+    
+    #main-header .header-caption h2{
+        font-size: 1.5em;
+    }
+    
+/*
+    #contact .contact-data, contact-form{
+        width: 100%;
+        text-align:center;
+    }
+*/
+     #contact .contact-data, #contact .contact-data h2{
+        width: 100%;
+         text-align:center;
+    }
+    
+    #contact .contact-form{
+        width:100%;
+    }
+    #contact .contact-data .contact-social-icons a{
+        margin:0;
+    }
+    
+    
+}
+
+
+
+    
+    
+    
+    
+    
+    
